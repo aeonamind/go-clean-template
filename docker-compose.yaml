@@ -1,0 +1,21 @@
+services:
+  mysql:
+    image: mysql:9
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: gobox
+    ports:
+      - 6606:3306
+    volumes:
+      - gobox_data:/var/lib/mysql
+    networks:
+      - gobox_net
+
+volumes:
+  gobox_data:
+    driver: local
+
+networks:
+  gobox_net:
+    driver: bridge
