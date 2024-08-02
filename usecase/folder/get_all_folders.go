@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/koujiman/gobox/domain"
+import "github.com/koujiman/go-clean-template/domain"
 
 type GetAllFoldersUseCase struct {
 	repo domain.FolderRepository

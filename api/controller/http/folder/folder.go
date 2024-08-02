@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/koujiman/gobox/domain"
+	"github.com/koujiman/go-clean-template/domain"
 )
 
 type FolderController struct {

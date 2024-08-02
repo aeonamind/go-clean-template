@@ -1,4 +1,4 @@
-module github.com/koujiman/gobox
+module github.com/koujiman/go-clean-template
 
 go 1.22.5
 

@@ -3,7 +3,7 @@ package repository
 import (
 	"gorm.io/gorm"
 
-	"github.com/koujiman/gobox/domain"
+	"github.com/koujiman/go-clean-template/domain"
 )
 
 type FolderRepository struct {

@@ -7,8 +7,8 @@
 package folder
 
 import (
-	"github.com/koujiman/gobox/infrastructure/repository"
-	"github.com/koujiman/gobox/usecase/folder"
+	"github.com/koujiman/go-clean-template/infrastructure/repository"
+	"github.com/koujiman/go-clean-template/usecase/folder"
 	"gorm.io/gorm"
 )
 

@@ -2,9 +2,9 @@ package folder
 
 import (
 	"github.com/google/wire"
-	"github.com/koujiman/gobox/domain"
-	"github.com/koujiman/gobox/infrastructure/repository"
-	usecase "github.com/koujiman/gobox/usecase/folder"
+	"github.com/koujiman/go-clean-template/domain"
+	"github.com/koujiman/go-clean-template/infrastructure/repository"
+	usecase "github.com/koujiman/go-clean-template/usecase/folder"
 )
 
 var FolderProviderSet = wire.NewSet(

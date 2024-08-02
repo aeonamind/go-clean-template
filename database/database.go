@@ -3,7 +3,7 @@ package database
 import (
 	"os"
 
-	"github.com/koujiman/gobox/config"
+	"github.com/koujiman/go-clean-template/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/gin-gonic/gin"
-	"github.com/koujiman/gobox/api/controller/http/folder"
-	"github.com/koujiman/gobox/database"
+	"github.com/koujiman/go-clean-template/api/controller/http/folder"
+	"github.com/koujiman/go-clean-template/database"
 )
 
 func main() {
